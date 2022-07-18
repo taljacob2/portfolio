@@ -185,7 +185,7 @@
                 x: pos.x,
                 y: pos.y
             };
-            let speed = 0.1;
+            let speed = 0.3; // Determine the speed of the mouseCursor trail.
             cursorActive = true;
             let xSet = gsap.quickSetter(ball, "x", "px", "force3d");
             let ySet = gsap.quickSetter(ball, "y", "px", "force3d");
